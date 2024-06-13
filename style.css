@@ -11,12 +11,12 @@ justify:content:single-between;
 podding: 20px;
 }
 
-.cabecalho_minuitem{
+.cabecalho_imagem{
  display:inline
  text-transform;uppercase
  margin-left: 20xp;
 }
-.cabecalho_minuitem{
+.cabecalho_imagem{
 width: 200px;
 height:200px ;
 border: radius 50px; ;
