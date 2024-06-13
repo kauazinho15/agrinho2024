@@ -6,7 +6,7 @@ body{
 
 header{
 display:flex
-background-color: rgb(33, 49, 75);
+background-color: rgb(35, 48, 74);
 justify:content:single-between;
 podding: 20px;
 }
