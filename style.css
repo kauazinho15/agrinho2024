@@ -10,3 +10,14 @@ background-color: rgb(35, 48, 74);
 justify:content:single-between;
 podding: 20px;
 }
+
+.cabecalho_minuitem{
+ display:inline
+ text-transform;uppercase
+ margin-left: 20xp;
+}
+.cabecalho_minuitem{
+width: 200px;
+height:200px ;
+border: radius 50px; ;
+}
