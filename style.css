@@ -5,10 +5,10 @@ body{
 }
 
 header{
-display:flex
-background-color: rgb(35, 48, 74);
-justify:content:single-between;
-podding: 20px;
+display: flex;
+background-color: black;
+justify-content: space-between;
+padding:40px ;
 }
 
 .cabecalho_menuitem{
