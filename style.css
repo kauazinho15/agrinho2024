@@ -11,13 +11,18 @@ justify:content:single-between;
 podding: 20px;
 }
 
-.cabecalho_imagem{
- display:inline
- text-transform;uppercase
- margin-left: 20xp;
+.cabecalho_menuitem{
+
+text-transform: uppercase;
+display: inline;
+margin-left:50px ;
+
+
 }
+
+
 .cabecalho_imagem{
 width: 200px;
 height:200px ;
-border: radius 50px; ;
+border-radius: 50px;
 }
