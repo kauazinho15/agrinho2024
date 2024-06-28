@@ -1,112 +1,55 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Agrinho 2024</title>
-</head>
-<body>
-    <header class="cabecalho">
-        <img src="https://cdn.vnda.com.br/x450/ceramicasa/2021/02/19/10_2_8_869_QUADRADO20X2021CinzaClaro.jpg" alt="" class="cabecalho-imagem">
-        <nav class="cabecalho-menu">
-            <ul class="cabecalho-menu-lista">
-                <li class="cabecalho-menu-listaitem"><a href="index.html">HOME</a>
-            
-                </li>
-                <li class="cabecalho-menu-listaitem">
-                    Pagina 2
-                </li>
-                <li class="cabecalho-menu-listaitem">
-                    Pagina 3
-                </li>
-            </ul>
-        </nav>
+body{
 
-    </header>
-    <main class="principal">
-       <section class="sobre">
-        <img src="https://cdn.vnda.com.br/x450/ceramicasa/2021/02/19/10_2_8_869_QUADRADO20X2021CinzaClaro.jpg" alt="" class="sobre_imagem">
-        <div class="sobre_texto">
-            <h2 class="sobre_texto-titulo">Aqui será nosso titulo</h2>
-            <p class="sobre_texto-conteudo">
-                Aqui será um texto bem longo, explicando para que server seu site.
-            </p>
+    background-color: rgb(183, 176, 176);/*coloca uma cor de fundo*/
 
-        </div>
-       </section>
-       <section class="elementos">
-        <div class="elementos__div">
-            <img src="https://cdn.vnda.com.br/x450/ceramicasa/2021/02/19/10_2_8_869_QUADRADO20X2021CinzaClaro.jpg" alt="" class="elementos__imagem">
-            <h1 class="elementos__titulo">
-                titulo da minha imagem
-            </h1>
-            <p class="elementos__texto">
-                texto referente a imagem
-            </p>
-        </div>
-        <div class="elementos__div">
-            <img src="https://cdn.vnda.com.br/x450/ceramicasa/2021/02/19/10_2_8_869_QUADRADO20X2021CinzaClaro.jpg" alt="" class="elementos__imagem">
-            <h1 class="elementos__titulo">
-                titulo da minha imagem
-            </h1>
-            <p class="elementos__texto">
-                texto referente a imagem
-            </p>
-        </div>
-        <div class="elementos__div">
-            <img src="https://cdn.vnda.com.br/x450/ceramicasa/2021/02/19/10_2_8_869_QUADRADO20X2021CinzaClaro.jpg" alt="" class="elementos__imagem">
-            <h1 class="elementos__titulo">
-                titulo da minha imagem
-            </h1>
-            <p class="elementos__texto">
-                texto referente a imagem
-            </p>
-        </div>
-        <div class="elementos__div">
-            <img src="https://cdn.vnda.com.br/x450/ceramicasa/2021/02/19/10_2_8_869_QUADRADO20X2021CinzaClaro.jpg" alt="" class="elementos__imagem">
-            <h1 class="elementos__titulo">
-                titulo da minha imagem
-            </h1>
-            <p class="elementos__texto">
-                texto referente a imagem
-            </p>
-        </div>
-        <div class="elementos__div">
-            <img src="https://cdn.vnda.com.br/x450/ceramicasa/2021/02/19/10_2_8_869_QUADRADO20X2021CinzaClaro.jpg" alt="" class="elementos__imagem">
-            <h1 class="elementos__titulo">
-                titulo da minha imagem
-            </h1>
-            <p class="elementos__texto">
-                texto referente a imagem
-            </p>
-        </div>
-        <div class="elementos__div">
-            <img src="https://cdn.vnda.com.br/x450/ceramicasa/2021/02/19/10_2_8_869_QUADRADO20X2021CinzaClaro.jpg" alt="" class="elementos__imagem">
-            <h1 class="elementos__titulo">
-                titulo da minha imagem
-            </h1>
-            <p class="elementos__texto">
-                texto referente a imagem
-            </p>
-        </div>
-        <div class="elementos__div">
-            <img src="https://cdn.vnda.com.br/x450/ceramicasa/2021/02/19/10_2_8_869_QUADRADO20X2021CinzaClaro.jpg" alt="" class="elementos__imagem">
-            <h1 class="elementos__titulo">
-                titulo da minha imagem
-            </h1>
-            <p class="elementos__texto">
-                texto referente a imagem
-            </p>
-        </div>
-            </section>
+}
 
-    </main>
-    <footer class="rodape">
+.cabecalho{
+    display: flex;/*muda a disposição do elementos para horizontal*/
+    align-items: center;
+    justify-content: space-between;
+}
 
+.cabecalho-imagem{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+padding: 20px;
 
-    </footer>
+}
 
+.cabecalho-menu-listaitem{
 
-</body>
-</html>
+    display: inline;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+.sobre{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.sobre_texto{
+
+    padding: 40px;
+}
+
+.elementos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.elementos__div{
+    text-align: center;
+}
+.elementos__imagem{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
